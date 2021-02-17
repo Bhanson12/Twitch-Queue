@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #202020;
+}
+
+.topnav {
+    background-color:  #b19cd9;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.topnav h1 {
+    color:#6441A5;
+    margin: 0;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 80px;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: red;
+  }
+
+#vidQueue {
+    width: 31rem;
+}
+
+#vidQueue li {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+#vidQueue li:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+#vidQueue button {
+    position: relative;
+    right: -20px;
+    float: right;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 0;
+}
+
+#chat {
+    margin-left: 80px;
+    flex-grow: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    color: white;
+}
+
+#chat li {
+    margin: 10px;
+}
